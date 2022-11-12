@@ -10,6 +10,7 @@ lambda arguments: expression
 после чего над переданными аргументами выполняется expression. 
 
 Если присвоить lambda-функцию переменной, то получим поведение как в обычной функции.
+
 multiply = lambda x,y: x * y
 multiply(21, 2)
 42
